@@ -1,0 +1,60 @@
+{
+    "functions": [
+        {
+            "description": "Adds two numbers without using batching",
+            "id": "ADDNOBATCH",
+            "name": "ADDNOBATCH",
+            "parameters": [
+                {
+                    "description": "First number",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Divides two numbers using batching",
+            "id": "DIV2",
+            "name": "DIV2",
+            "parameters": [
+                {
+                    "description": "The number being divided",
+                    "name": "dividend",
+                    "type": "number"
+                },
+                {
+                    "description": "The number to divide the dividend with",
+                    "name": "divisor",
+                    "type": "number"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Multiplies two numbers together using batching",
+            "id": "MUL2",
+            "name": "MUL2",
+            "parameters": [
+                {
+                    "description": "First number to multiply",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number to multiply",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {}
+        }
+    ]
+}
