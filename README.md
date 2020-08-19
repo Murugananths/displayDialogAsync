@@ -7,5 +7,5 @@ Install all the npm packages. Go into the project folder and type the following 
 npm install
 In order to run the application Type the following command
 
-npm run start:devserver
+npm run start:devserver </br>
 The Application Runs on localhost:3000
